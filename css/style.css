@@ -68,26 +68,24 @@ h1 {
 header {
     width: 75%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* margin: 0px 150px; */
+    margin: 0px 150px;
 }
-
-.header_logo {
-    width: 55%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 24px;
-    font-weight: 900;
-}
-
-.header_links {
-    width: 45%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    .header_logo {
+        width: 55%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .header_links {
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 .div_6 {
     height: 90px;
