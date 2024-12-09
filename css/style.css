@@ -12,11 +12,11 @@
 }
 
 body {
-    font-size: 22px;
+    font-size: 16px;
     font-family: Roboto, Verdana, sans-serif;
     color: rgb(204, 204, 204);
-    background-color: #222222;
-    /* margin: 5px; */
+    /* background-color: #222222; */
+    /* margin: 0 100px; */
 }
 
 h1 {
@@ -32,17 +32,7 @@ h1 {
 // box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 */
 
-.box_1, .box_2, .box_3 {
-    display: inline-block;
-    width: 32.8%;
-    height: 200px;
-    text-align: center;
-    padding-top: 10%;
-    /* background-color: pink; */
-}
-
-
-.header, .div_6 {
+.div_1, .div_6 {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -67,7 +57,38 @@ h1 {
     align-items: center;
 }
 
+.div_1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0px 150px; */
+}
+
+.header_logo {
+    width: 55%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header_links {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .div_6 {
     height: 90px;
-    font-size: 16px;
 }
