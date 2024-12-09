@@ -32,6 +32,10 @@ h1 {
     font-weight: 900;
 }
 
+h3 {
+    font-size: 22px;
+}
+
 p {
     padding: 5px 40px 5px 0;
 }
@@ -50,6 +54,10 @@ button {
     border-radius: 9px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 .div_1, .div_2, .div_6 {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -65,7 +73,7 @@ button {
     color: #1F2937
 }
 
-button {
+button, .c2a_cont {
     background-color: #3882F6;
 }
 
@@ -75,11 +83,11 @@ button {
     align-items: center;
 }
 
-header, .hero, .quote_cont {
-    margin: 0px 170px;
+header, .hero, .quote_cont, .c2a_cont {
+    margin: 0px 12%;
 }
 
-.header_links, .hero_2nd {
+.header_links, .hero_2nd, .div_5 {
     color: #E5E7EB;
 }
 
@@ -152,6 +160,27 @@ header, .hero, .quote_cont {
             margin-top: -20px;
         }
 
+.div_5 {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .c2a_cont {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 7%;
+        align-items: center;
+        border-radius: 12px;
+    }
+    #sign_up_2 {
+        outline: solid #E5E7EB;
+    }
+
+
 .div_6 {
-    height: 90px;
+    height: 80px;
 }
