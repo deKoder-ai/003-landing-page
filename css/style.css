@@ -7,7 +7,7 @@
     margin: 0; /* space between the borders of a box and the borders of adjacent boxes. vertical margins overlap, largest value applied */
     box-sizing: border-box; /* ensure that if width and height elements are set for an object they include p, m ,b */
     line-height: 1.5;
-    /* outline: 1px dashed rgba(55, 52, 235, 0.623); */
+    /* border: 1px dashed rgba(55, 52, 235, 0.623); */
 }
 
 /* ========== BOX MODEL ========== //
@@ -77,12 +77,6 @@ button, .c2a_cont {
     background-color: #3882F6;
 }
 
-.flex_cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 header, .hero, .quote_cont, .c2a_cont {
     margin: 0px 12%;
 }
@@ -120,13 +114,14 @@ header, .hero, .quote_cont, .c2a_cont {
 
 .div_2 {
     width: 100%;
-    height: 465px;
+    height: 460px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
     .hero {
         width: 100%;
+        height: 270px;
         display:flex;
         justify-content: space-between;
     }
@@ -135,6 +130,48 @@ header, .hero, .quote_cont, .c2a_cont {
         }
         .hero_img {
             width: 50%;
+        }
+            #hero_img {
+                width: 100%;
+                height: 270px;
+            }
+
+.div_3 {
+    width: 100%;
+    height: 500px;
+}
+    .info_head {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #1F2937;
+        font-weight: 900;
+        margin: 10px 0 40px 0;
+    }
+    .info_img_cont{
+        height: 200px;
+    }
+    .info_img_cont, .info_txt_cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20%;
+    }
+        .info_img {
+            height: 170px;
+            border: 4px solid #3882F6;
+            border-radius: 12px;
+        }
+        .info_img, .info_txt {
+            width: 170px;
+        }
+
+        .info_txt {
+            margin-top: 10px;
+            text-align: center;
         }
 
 .div_4 {
@@ -162,7 +199,7 @@ header, .hero, .quote_cont, .c2a_cont {
 
 .div_5 {
     width: 100%;
-    height: 370px;
+    height: 350px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,10 +214,14 @@ header, .hero, .quote_cont, .c2a_cont {
         border-radius: 12px;
     }
     #sign_up_2 {
-        outline: solid #E5E7EB;
+        border: solid #E5E7EB;
     }
 
-
 .div_6 {
+    width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 }
