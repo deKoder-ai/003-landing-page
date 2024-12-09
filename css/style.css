@@ -1,0 +1,42 @@
+/* style.css template */
+
+/* global - specificity = 0 */
+* {
+    padding: 0; /* space between the border of a box and the content of the box */
+    border: 0; /* space between the margin and the padding */
+    margin: 0; /* space between the borders of a box and the borders of adjacent boxes. vertical margins overlap, largest value applied */
+    box-sizing: border-box; /* ensure that if width and height elements are set for an object they include p, m ,b */
+    line-height: 1.5;
+    outline: 1px dotted rgba(55, 52, 235, 0.623);
+    outline-style: dashed;
+}
+
+body {
+    font-size: 22px;
+    font-family: Verdana, sans-serif;
+    color: rgb(204, 204, 204);
+    background-color: #222222;
+    /* margin: 5px; */
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ========== BOX MODEL ========== //
+//
+// Margin      | e.g. margin: 10px 10px 10px 20px (top | right | bottom | left)  
+// Border      | e.g. border: 2px dotted green
+// Padding     | e.g. padding: 10px (shorthand)
+// Content     | 
+// box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+*/
+
+.box_1, .box_2, .box_3 {
+    display: inline-block;
+    width: 32.8%;
+    height: 200px;
+    text-align: center;
+    padding-top: 10%;
+    /* background-color: pink; */
+}
