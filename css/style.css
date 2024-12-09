@@ -11,18 +11,6 @@
     outline-style: dashed;
 }
 
-body {
-    font-size: 16px;
-    font-family: Roboto, Verdana, sans-serif;
-    color: rgb(204, 204, 204);
-    /* background-color: #222222; */
-    /* margin: 0 100px; */
-}
-
-h1 {
-    text-align: center;
-}
-
 /* ========== BOX MODEL ========== //
 //
 // Margin      | e.g. margin: 10px 10px 10px 20px (top | right | bottom | left)  
@@ -31,6 +19,21 @@ h1 {
 // Content     | 
 // box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 */
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Verdana, sans-serif;
+    /* color: rgb(204, 204, 204); */
+}
+
+h1 {
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
 
 .div_1, .div_6 {
     background-color: #1F2937;
