@@ -21,13 +21,20 @@
 */
 
 body {
-    font-size: 16px;
-    font-family: Roboto, Verdana, sans-serif;
+    font-size: 18px;
+    font-family: "Roboto-Black", Arial, sans-serif;
     /* color: rgb(204, 204, 204); */
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p {
+    padding: 5px 40px 5px 0;
 }
 
 a, a:visited {
@@ -35,7 +42,16 @@ a, a:visited {
     color: inherit;
 }
 
-.div_1, .div_6 {
+button {
+    width: 130px;
+    height: 40px;
+    font-size: inherit;
+    color: inherit;
+    font-weight: 900;
+    border-radius: 9px;
+}
+
+.div_1, .div_2, .div_6 {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -45,13 +61,13 @@ a, a:visited {
     color: #1F2937;
 }
 
-.div_4 {
+.div_4, .hero_img {
     background-color: #E5E7EB;
     color: #1F2937
 }
 
-.button {
-    background-attachment: #3882F6;
+button {
+    background-color: #3882F6;
 }
 
 .flex_cont {
@@ -60,35 +76,62 @@ a, a:visited {
     align-items: center;
 }
 
+header, .hero {
+    margin: 0px 170px;
+}
+
+.header_links, .hero_2nd {
+    color: #E5E7EB;
+}
+
 .div_1 {
-    width: 100%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-header {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 150px;
-}
-    .header_logo {
-        width: 55%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        font-size: 24px;
-        font-weight: 900;
-    }
-    .header_links {
-        width: 45%;
+    header {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+        .header_logo {
+            width: 55%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 900;
+        }
+        .header_links {
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+.div_2 {
+    width: 100%;
+    height: 465px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .hero {
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+    }
+        .hero_text {
+            width: 50%;
+        }
+        .hero_img {
+            width: 50%;
+        }
+
+
+
 
 .div_6 {
     height: 90px;
