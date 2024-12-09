@@ -40,3 +40,34 @@ h1 {
     padding-top: 10%;
     /* background-color: pink; */
 }
+
+
+.header, .div_6 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.div_3, .div_5 {
+    background-color: white;
+    color: #1F2937;
+}
+
+.div_4 {
+    background-color: #E5E7EB;
+    color: #1F2937
+}
+
+.button {
+    background-attachment: #3882F6;
+}
+
+.flex_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_6 {
+    height: 90px;
+    font-size: 16px;
+}
